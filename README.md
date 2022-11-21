@@ -15,7 +15,8 @@ This work make use of code from:
 
 1. Niccolò Pancino, Pietro Bongini, Franco Scarselli, Monica Bianchini,
   GNNkeras: A Keras-based library for Graph Neural Networks and homogeneous and heterogeneous graph processing,
-  SoftwareX, Volume 18, 2022, 101061, ISSN 2352-7110, https://doi.org/10.1016/j.softx.2022.101061. Accessible at https://github.com/NickDrake117/GNNkeras.
+  SoftwareX, Volume 18, 2022, 101061, ISSN 2352-7110, https://doi.org/10.1016/j.softx.2022.101061. Source code available at https://github.com/NickDrake117/GNNkeras.
 2. Bongini, Pietro & Scarselli, Franco & Bianchini, Monica & Dimitri, Giovanna & Pancino, Niccolò & Lio, Pietro. (2022).
   Modular multi-source prediction of drug side-effects with DruGNN.
   IEEE/ACM transactions on computational biology and bioinformatics PP (2022): n. pag.
+  Source code available at https://github.com/PietroMSB/DrugSideEffects.
