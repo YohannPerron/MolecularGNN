@@ -35,7 +35,7 @@ graphs = load_molecules()
 MG_Sequencer = MultiGraphSequencer(graphs, 'g', AGGREGATION, 32000, shuffle = False)
 
 #drug-effect graphs
-DG_Trs, DG_Va, DG_Te = load_drugs(num_batch = 10,molecular_feature_size = INNER_DIM+128)
+DG_Trs, DG_Va, DG_Te = load_drugs(num_batch = 10,molecular_feature_size = INNER_DIM)
 CLASSES = DG_Te.targets.shape[1]
 
 DG_Tr_Sequencer = CompositeMultiGraphSequencer(DG_Trs, 'n', AGGREGATION, 1, shuffle=False)

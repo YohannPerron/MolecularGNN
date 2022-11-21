@@ -34,7 +34,7 @@ AGGREGATION = "average"     #can either be "average" or "sum"
 ACTIVATION = "relu"			#activation function
 SIDE_EFFECT_COUNT = 280		#number of side-effects to take into account 
 LABEL_DIMS = [7, 140, SIDE_EFFECT_COUNT]
-
+execution_mode = "full"		#regenerate the graph
 
 #gpu parameters
 use_gpu = True
@@ -45,10 +45,6 @@ if len(sys.argv)>1:
 	run_id = sys.argv[1]
 else:
 	run_id = "default"
-if len(sys.argv)>2:
-	execution_mode = sys.argv[2]
-else:
-	execution_mode = "full"
 
 #script parameters
 path_data = "Datasets/Nuovo/Output/Soglia_100/"
